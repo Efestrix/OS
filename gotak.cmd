@@ -3,7 +3,7 @@ chcp 1250
 cls
 
 
-msg %username% TeÔ ti zazpÌv·m.
+msg %username% Te√Ø ti zazp√≠v√°m.
 :zacatek
 goto zpev
 format c:
