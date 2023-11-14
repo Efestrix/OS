@@ -11,12 +11,12 @@ goto b
 ) 
 
 :a
-echo a = smazat a zkopírovat data z PROGRAMDATA
-echo b = zanechat v pùvodním stavu
+echo a = smazat a zkopÃ­rovat data z PROGRAMDATA
+echo b = zanechat v pÅ¯vodnÃ­m stavu
 choice /C ab
 if %errorlevel%==1 rd c:\prace xcopy c:\ProgramData c:\prace /s 
 
-if %errorlevel%==2 msg * soubor zachován 
+if %errorlevel%==2 msg * soubor zachovÃ¡n 
 
 
 :b
