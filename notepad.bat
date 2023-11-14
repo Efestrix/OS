@@ -1,0 +1,4 @@
+@echo off 
+chcp 65001
+echo pøíští hodinu píšeme test z PVY
+pause
